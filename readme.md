@@ -3,7 +3,9 @@
 # The Wall Of Shame
 <p>
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+<a href="https://discord.gg/dz8xBwRa"><img src=https://img.shields.io/badge/Discord_Server-3670a0?style=for-the-badge&logo=discord&logoColor=white></a>
 </p>
+
 The Current tool I use to Label Victims who have wronged me.
 It has A user interface with Discord Webhook-Styled Functionality and an easy to use user-interface 
 
