@@ -1,0 +1,3 @@
+httpx
+discord-webhook
+dearpygui
