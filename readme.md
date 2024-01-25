@@ -33,7 +33,7 @@ the following libraries will be installed
 - discord-webhook
 - dearpygui
 
-And that's it. This tool is tiny and only uses one backend api for help which is https://discordlookup.mesavirep.xyz and that's just for reasolving the user information I need so I can hand them on `The Wall Of Shame`
+And that's it. This tool is tiny and only uses one backend api for help which is https://discordlookup.mesavirep.xyz and that's just for reasolving the user information I need so I can hand them off to `The Wall Of Shame`
 
 ## Running
 ```
