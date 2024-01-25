@@ -1,5 +1,4 @@
 from httpx import Client
-from httpx_socks import SyncProxyTransport
 from discord_webhook import DiscordWebhook, DiscordEmbed
 from config import FieldManager, Settings
 from datetime import datetime
@@ -27,9 +26,8 @@ class DiscordUser:
 
 
 def request(discordID: str) -> DiscordUser:
-    with Client(transport=SyncProxyTransport.from_url("socks5://localhost:9150")) as client:
+    with Client() as client:
         data = client.get(f"https://discordlookup.mesavirep.xyz/v1/user/{discordID}").json()
-        print(data)
     return DiscordUser(data)
 
 
